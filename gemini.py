@@ -6,7 +6,7 @@ class TeacherBot:
     def __init__(self, api_key: str):
         # genai.configure(api_key=api_key)
         # self.model = genai.GenerativeModel('gemini-1.5-pro')
-        self.client = genai.Client(api_key="AIzaSyCt4XAe9FaGohl1xVD6vgb6fZmbxo7_qwQ")
+        self.client = genai.Client(api_key=key)
         # response = client.models.generate_content(
         #     model="gemini-2.0-flash",
         #     contents="Explain how AI works in a few words",

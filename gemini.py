@@ -14,7 +14,7 @@ class TeacherBot:
     def answer_question(self, question: str, language: str) -> str:
        
         context = (
-            f"Bạn hãy đóng vai giáo viên chuyên nghiệp, trả lời ngắn gọn nhất có thể bằng ngôn ngữ '{language}'. "
+            f"Bạn hãy đóng vai giáo viên chuyên nghiệp, trả lời ngắn gọn nhất và thân thiện nhất ta có thể bằng ngôn ngữ '{language}'. "
             f"Dưới đây là câu hỏi:\n\n{question}"
         )
   
